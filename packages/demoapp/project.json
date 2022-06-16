@@ -8,12 +8,6 @@
       "outputs": [
         "{options.outputPath}"
       ],
-      "dependsOn": [
-        {
-          "target": "build",
-          "projects": "dependencies"
-        }
-      ],
       "options": {
         "outputPath": "dist/packages/demoapp",
         "main": "packages/demoapp/src/index.ts",
@@ -64,5 +58,9 @@
       }
     }
   },
-  "tags": []
+  "tags": [
+    "scope:common",
+    "type:app"
+  ],
+  "implicitDependencies": ["commonlib"]
 }

@@ -5,12 +5,6 @@
   "affected": {
     "defaultBase": "main"
   },
-  "implicitDependencies": {
-    "workspace.json": "*",
-    "package.json": {
-      "dependencies": "*"
-    }
-  },
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",

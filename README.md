@@ -36,12 +36,18 @@ This project is generated to study [Nx](https://nx.dev).
 
 ### build
 
+The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a
+production build.
+
 - build all
+  ```bash
+  nx build --all
+  ```
+
+- build all in **parallel**
   ```bash
   nx run-many --target=build --all
   ```
-  The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a
-  production build.
 
 ### Development server
 
